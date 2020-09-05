@@ -3,7 +3,6 @@ public class $3$14periodicStrings {
         func("abcabcdabcabcd");
         func("fihnwduewafihnwduewafihnwduewafihnwduewafihnwduewafihnwduewafihnwduewa");
     }
-
     static void func(String input) {
         int[] factors = factor(input.length());
         StringBuilder sb = new StringBuilder(input);
